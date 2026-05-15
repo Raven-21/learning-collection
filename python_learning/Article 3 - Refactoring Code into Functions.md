@@ -5,7 +5,6 @@
 
 This is when I started learning about **code refactoring and functions**.
 
----
 
 ## 📌 Why I Started Refactoring
 
@@ -22,7 +21,6 @@ At this point, I learned an important idea:
 
 > **Working code is not the same as good code.**
 
----
 
 ## 🧠 Key Idea: Functions Solve Structure Problems
 
@@ -32,7 +30,6 @@ Each function should do **only one thing**.
 
 This idea changed how I think about programming.
 
----
 
 ## 🏗️ Before Refactoring (Bad Structure)
 
@@ -57,13 +54,11 @@ while True:
 - Hard to reuse
 - No separation of concerns
 
----
 
 ## 🔄 After Refactoring (Function-Based Structure)
 
 I split the program into multiple functions:
 
----
 
 ### 🟢 Input Function
 
@@ -76,7 +71,6 @@ def get_guess():
         return None
 ```
 
----
 
 ### 🟢 Logic Function
 ```python
@@ -92,7 +86,6 @@ def check_guess(current_guess, current_number):
         return True
 ```
 
----
 
 ### 🟢 Display Functions
 
@@ -104,7 +97,6 @@ def show_chance(chance):
     print(f"You have {chance} chances left")
 ```
 
----
 
 ## 🧠 What Changed After Refactoring
 
@@ -118,7 +110,6 @@ After splitting the code into functions:
 
 **✔ I could reuse logic more easily**
 
----
 
 ## ⚠️ Problems I Faced During Refactoring
 ### ❌ Problem 1: Too Many Functions
@@ -129,7 +120,6 @@ At first, I created too many small functions that didn’t add value.
 
 Not everything needs to be a function — only meaningful logic should be separated.
 
----
 
 ### ❌ Problem 2: Confusion About Parameters
 
@@ -147,7 +137,6 @@ Example:
 def check_guess(current_guess, current_number):
 ```
 
----
 
 ### ❌ Problem 3: Naming Confusion
 
@@ -157,7 +146,6 @@ I often reused variable names incorrectly or inconsistently.
 
 Good naming improves readability more than I expected.
 
----
 
 ## 🧠 Biggest Concept I Learned
 
@@ -167,7 +155,6 @@ The most important idea from this stage was:
 
 Even if the program works, it is not “finished” if it is not readable.
 
----
 
 ## 🚀 What Refactoring Enabled
 
@@ -178,7 +165,6 @@ After refactoring, I could:
 - Fix bugs faster
 - Extend the project into a more complete application
 
----
 
 ## 🎯 Final Structure After Refactoring
 
@@ -189,7 +175,6 @@ My project evolved into layers:
 - Display Layer → `show_count()`, `show_chance()`
 - Game Loop → `while True`
 
----
 
 ## 🧭 Transition Point
 
@@ -197,7 +182,6 @@ This stage marked an important transition in my learning:
 
 >From writing scripts → to designing structured programs
 
----
 
 ## 📌 Final Thoughts
 

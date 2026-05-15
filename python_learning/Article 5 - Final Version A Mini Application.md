@@ -5,7 +5,6 @@
 
 This stage was where I began thinking less about “writing code” and more about “designing a program”.
 
----
 
 ## 📌 From Features to Structure
 
@@ -26,7 +25,6 @@ So I started adding:
 - layered structure
 - cleaner control flow
 
----
 
 ## 🎮 Adding Difficulty Selection
 
@@ -35,7 +33,6 @@ I added two difficulty modes:
 - Easy → 10 chances
 - Hard → 5 chances
 
----
 
 ### 🟢 Difficulty Function
 
@@ -57,7 +54,6 @@ def choose_difficulty():
             print("Please choose 1 or 2.")
 ```
 
----
 
 ## 🧠 What I Learned
 
@@ -67,7 +63,6 @@ This feature taught me something important:
 
 The difficulty function became part of the game's setup system.
 
----
 
 ## 🔄 Building a Replay System
 
@@ -89,7 +84,6 @@ def play_again():
             print("Please enter a yes or no!")
 ```
 
----
 
 ## ⚠️ Understanding `break` vs `return`
 
@@ -119,7 +113,6 @@ Here, `return` stops the entire function immediately.
 
 This helped me understand program flow much more clearly.
 
----
 
 ## 🏗️ Separating the Program into Layers
 
@@ -171,7 +164,6 @@ Responsible for:
 - loop control
 - state management
 
----
 
 ## 🧠 Why This Was Important
 
@@ -185,7 +177,6 @@ This structure made the code:
 
 ✔ easier to understand later
 
----
 
 ## ⚠️ A New Realization
 
@@ -197,7 +188,6 @@ Later, I realized:
 
 This was an important mindset shift.
 
----
 
 ## 🧩 Program State Management
 
@@ -215,7 +205,6 @@ These variables represented the current state of the game.
 
 Managing them correctly became increasingly important.
 
----
 
 ## 🚀 Main Program Loop
 Eventually, my program evolved into this structure:
@@ -232,7 +221,6 @@ This was one of the biggest improvements in the project.
 
 The game now behaved like a real application instead of a single-use script.
 
----
 
 ## 🧠 Biggest Lesson Learned
 
@@ -250,7 +238,6 @@ It is also about:
 - program flow
 - system design
 
----
 
 ## 📈 How My Thinking Changed
 
@@ -264,7 +251,6 @@ Later:
 
 This felt like a major transition in my learning journey.
 
----
 
 ## 🎯 Final Thoughts
 

@@ -1,8 +1,6 @@
 # 🐍 My First Steps in Python: Building a Guessing Game
 
-> **Writing code is not just about making it work — it is about making it structured and understandable.**
-
----
+> Writing code is not just about making it work — it is about making it structured and understandable.
 
 ## 📌 Overview
 
@@ -13,8 +11,6 @@ Instead of only following tutorials, I chose a **project-based learning approach
 🎮 **Guess the Number Game**
 
 This project helped me understand Python in a practical way, not just theoretically.
-
----
 
 ## 🎯 Project Goal
 
@@ -29,8 +25,6 @@ The idea of the game is simple:
 
 Although simple in concept, it helped me learn many important programming ideas.
 
----
-
 ## 🧠 What I Learned
 
 ### 🟢 1. Basic Python Syntax
@@ -43,8 +37,6 @@ I practiced:
 - `while` loops for repetition
 - `break` to control loop execution
 
----
-
 ### 🟡 2. Using External Modules
 
 I used Python’s built-in `random` module:
@@ -54,8 +46,6 @@ import random
 number = random.randint(1, 100)
 ```
 This was my first experience using external libraries.
-
----
 
 ### 🔵 3. Error Handling
 
@@ -76,14 +66,12 @@ except ValueError:
 ```
 👉 This made my program more robust.
 
----
-
 ## ⚠️ Problems I Encountered
+
 ### ❌ Problem 1: Program Crashing on Invalid Input
 Users could enter non-numeric values like `abc`, causing crashes.
-### ✔ Solution: `try / except` error handling
 
----
+### ✔ Solution: `try / except` error handling
 
 ### ❌ Problem 2: Confusion About `break`
 
@@ -93,8 +81,6 @@ At first, I didn’t understand why the loop stopped only when the correct numbe
 
 - `break` stops the loop immediately
 - It is triggered when the correct condition is met
-
----
 
 ### ❌ Problem 3: Understanding `return` vs `break`
 
@@ -107,7 +93,6 @@ I was confused why `return` seemed to stop execution.
 
 This helped me understand Python program flow more deeply.
 
----
 
 ### ❌ Problem 4: Function Design
 
@@ -124,7 +109,6 @@ Example:
 def check_guess(current_guess, current_number):
     ...
 ```
----
 
 ## 🏗️ Project Evolution
 My project improved step by step:
@@ -141,8 +125,6 @@ My project improved step by step:
 - Game layer → `play_game()`
 - Replay layer → `play_again()`
 
----
-
 ## 🚀 Key Takeaway
 
 >Writing code is not just about making it work — it is about making it structured and understandable.
@@ -157,7 +139,6 @@ I plan to improve this project further:
 - Add scoring system
 - Continue refactoring for cleaner architecture
 
----
 
 ## 🎓 Final Thoughts
 

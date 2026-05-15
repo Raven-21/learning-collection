@@ -2,8 +2,6 @@
 
 > A simple project that helped me move from learning Python syntax to actually building a working program.
 
----
-
 ## 📌 Overview
 
 After learning the basics of Python, I wanted to apply what I learned in a real project.
@@ -13,8 +11,6 @@ So I built a simple command-line game:
 🎯 **Guess the Number Game**
 
 This project became my first step into thinking like a programmer, not just writing code line by line.
-
----
 
 ## 🎮 Project Idea
 
@@ -29,7 +25,6 @@ The rules of the game are simple:
 
 At first glance, this seems very simple. But implementing it introduced many programming concepts.
 
----
 
 ## 🧠 Core Python Concepts Used
 
@@ -43,7 +38,6 @@ number = random.randint(1, 100)
 ```
 This was my first time using external modules in a real project.
 
----
 
 ### 🟢 2. Loops (Game Flow Control)
 
@@ -55,7 +49,6 @@ while True:
 ```
 This helped me understand how loops control program execution.
 
----
 
 ### 🟢 3. Conditional Logic
 
@@ -73,7 +66,6 @@ else:
 
 This is where the actual game behavior is defined.
 
----
 
 ## ⚠️ Problems I Encountered
 
@@ -92,7 +84,6 @@ except ValueError:
 ```
 👉 This made the program more stable.
 
----
 
 ### ❌ Problem 2: Confusion About `break`
 I didn’t fully understand why the loop stopped only when the correct number was guessed.
@@ -101,13 +92,11 @@ I didn’t fully understand why the loop stopped only when the correct number wa
 - `break` immediately stops the loop
 - It is triggered only when a correct condition is met
 
----
 
 ### ❌ Problem 3: Program Flow Was Hard to Understand
 
 At first, everything was inside a single loop, which made the code hard to read.
 
----
 
 ## 🏗️ First Version of My Code
 My early version looked like this:
@@ -130,7 +119,6 @@ while True:
 ```
 It worked, but it was not well structured.
 
----
 
 ## 🔄 What I Improved Later
 
@@ -144,7 +132,6 @@ After building the first version, I started improving it step by step:
 
 **✔ Improved readability**
 
----
 
 ## 🧠 Key Lesson Learned
 
@@ -154,7 +141,6 @@ The most important lesson from this project is:
 
 At first, I only focused on making it work. Later, I realized that structure is just as important as functionality.
 
----
 
 ## 🚀 Next Step
 
@@ -166,7 +152,6 @@ After finishing this basic version, I started refactoring the project into:
 
 This became the foundation for my next learning phase.
 
----
 
 ## 🎯 Final Thoughts
 

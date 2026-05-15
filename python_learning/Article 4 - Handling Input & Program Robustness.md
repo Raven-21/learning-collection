@@ -7,7 +7,6 @@ While improving my Guess the Number game, I realized that user input could easil
 
 This became my introduction to **error handling and program robustness**.
 
----
 
 ## 📌 The Problem with User Input
 
@@ -47,7 +46,6 @@ I realized something important:
 
 A real program must protect itself against invalid input.
 
----
 
 
 ## 🔄 Learning try/except
@@ -92,7 +90,6 @@ This small change completely changed the user experience:
 
 ✔ Program continues safely
 
----
 
 ## 🧩 Refactoring Input Handling
 
@@ -118,7 +115,6 @@ This improved:
 
 Now the main game loop became cleaner.
 
----
 
 ## ⚠️ Another Problem: Range Validation
 
@@ -144,7 +140,6 @@ if guess < 1 or guess > 100:
     continue
 ```
 
----
 
 ## 🧠 What I Learned
 
@@ -157,7 +152,6 @@ Some inputs are:
 
 This was an important distinction.
 
----
 
 ## 🔄 Understanding `continue`
 
@@ -171,7 +165,6 @@ means:
 
 >Skip the rest of the current loop iteration and start the next one immediately.
 
----
 
 ## 🧩 Improving Program Stability
 
@@ -185,7 +178,6 @@ my program became much more stable and realistic.
 
 It no longer depended on perfect user behavior.
 
----
 
 ## 🚀 Bigger Lesson Learned
 
@@ -215,7 +207,6 @@ Later, I started asking:
 
 This was a major mindset shift.
 
----
 
 ## 📈 Result
 
@@ -231,7 +222,6 @@ By the end of this stage, my project had:
 
 ✔ Better user experience
 
----
 
 ## 🎯 Final Thoughts
 
