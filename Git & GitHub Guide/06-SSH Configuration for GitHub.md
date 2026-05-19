@@ -14,7 +14,7 @@ SSH is generally:
 - Better for long-term use
 
 
-## Step 1 Generate SSH Key
+## Step 1: Generate SSH Key
 
 Open Git Bash and type:
 
