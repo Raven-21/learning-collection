@@ -4,7 +4,7 @@
 
 Go to:
 
-[GitHub](https://github.com?utm_source=chatgpt.com)
+[GitHub](https://github.com/)
 
 Create a new repository.
 

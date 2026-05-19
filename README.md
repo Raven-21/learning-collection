@@ -102,8 +102,8 @@ This repository serves as:
 
 If you find this useful or want to discuss learning and development:
 
-- GitHub: [your-github-profile-link]
-- Email: [your-email]
+- GitHub: [My Github Profile Link](https://github.com/Raven-21)
+- Email: [My Email](faithseeker917@outlook.com)
 
 
 ⭐ If you like this repository, feel free to star it!

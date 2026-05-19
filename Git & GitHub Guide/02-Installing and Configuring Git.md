@@ -4,7 +4,7 @@
 
 Official website:
 
-[Git Official Website](https://git-scm.com?utm_source=chatgpt.com)
+[Git Official Website](https://git-scm.com/)
 
 Download the version for your operating system.
 
