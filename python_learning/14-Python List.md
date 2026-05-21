@@ -17,24 +17,20 @@ numbers = [10, 20, 30]
 Unlike normal variables, a list can store multiple values.
 
 
-## 🧠 Variable vs List
+### 🧠 Variable vs List
 
-### Normal Variable
+Normal Variable - Stores only one value.
 
 
 ```python
 age = 18
 ```
 
-Stores only one value.
-
-### List
+List - Stores multiple values.
 
 ```python
 ages = [18, 20, 25]
 ```
-
-Stores multiple values.
 
 
 ## 2. Creating a List
@@ -101,7 +97,7 @@ fruits = ["apple", "banana", "orange"]
 
 Example:
 
-**First Element**
+First Element
 
 ```python
 print(fruits[0])
@@ -112,7 +108,7 @@ Output:
 apple
 ```
 
-**Second Element**
+Second Element
 
 ```python
 print(fruits[1])
@@ -159,6 +155,8 @@ Very common in real software development.
 
 
 ## 7. Modifying List Items
+
+Example:
 
 ```python
 fruits = ["apple", "banana", "orange"]
@@ -210,7 +208,7 @@ Append into list
 
 ### `remove()`
 
-**Remove by Value**
+Remove by Value
 
 ```python
 fruits = ["apple", "banana", "orange"]
@@ -228,7 +226,7 @@ Output:
 
 ### `pop()`
 
-**Removes by index.**
+Removes by index
 
 ```python
 numbers = [1, 2, 3]
@@ -243,7 +241,7 @@ Output:
 [1, 3]
 ```
 
-**Removes the last element.**
+Removes the last element
 
 ```python
 history.pop()

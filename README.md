@@ -7,24 +7,18 @@ This repository is continuously evolving as I progress through different stages 
 
 ## 📁 Repository Structure
 
+
+```text
 learning-collection/
-
 │
-
 ├── git-github-guide/
-
 │ └── Notes and examples for Git & GitHub usage
-
 │
-
 ├── python_learning/
-
 │ └── Python learning notes, exercises, and mini projects
-
 │
-
 └── README.md
-
+```
 
 ## 🚀 Contents
 
