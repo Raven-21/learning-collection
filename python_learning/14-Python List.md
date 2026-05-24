@@ -43,34 +43,6 @@ Example:
 fruits = ["apple", "banana", "orange"]
 ```
 
-### Empty List
-
-```python
-history = []
-```
-
-Commonly used for dynamically adding data later.
-
-
-### List with Initial Values
-
-```python
-numbers = [1, 2, 3]
-```
-
-
-### Mixed Data Types
-
-Python lists can store different types of data.
-
-```python
-data = [1, "hello", True]
-```
-
-Although possible, keeping consistent data types is usually better.
-
-
-
 ## 3. List Can Store Different Types
 
 Example:
@@ -95,8 +67,6 @@ Lists use indexes.
 fruits = ["apple", "banana", "orange"]
 ```
 
-Example:
-
 First Element
 
 ```python
@@ -106,17 +76,6 @@ print(fruits[0])
 Output:
 ```text
 apple
-```
-
-Second Element
-
-```python
-print(fruits[1])
-```
-
-Output:
-```text
-banana
 ```
 
 ## 5. Index Starts from 0
@@ -174,9 +133,7 @@ Output:
 
 ## 8. Adding Items
 
-### `append()` 
-
-Adds a new element to the end of a list.
+### `append()` - Adds a new element to the end of a list.
 
 Example:
 
@@ -206,9 +163,7 @@ Append into list
 
 ## 9. Removing Items
 
-### `remove()`
-
-Remove by Value
+### `remove()` - Remove by Value
 
 ```python
 fruits = ["apple", "banana", "orange"]
@@ -224,9 +179,8 @@ Output:
 ```
 
 
-### `pop()`
+### `pop()` - Removes by index
 
-Removes by index
 
 ```python
 numbers = [1, 2, 3]
@@ -241,7 +195,7 @@ Output:
 [1, 3]
 ```
 
-Removes the last element
+👉 Removes the last element
 
 ```python
 history.pop()
@@ -256,9 +210,8 @@ Commonly used for:
 
 ## 10. List Length
 
-### `len()`
+### `len()` - Returns the number of elements in the list
 
-Returns the number of elements in the list.
 
 Example:
 
@@ -297,9 +250,7 @@ orange
 
 ## 12. Checking Membership
 
-### `in`
-
-Checks whether a value exists in the list.
+### `in` - Checks whether a value exists in the list
 
 Example 1:
 
@@ -376,7 +327,7 @@ matrix = [
 
 ## 17. Common Beginner Mistakes
 
-### 1. Index out of range
+### 1️⃣ Index out of range
 
 ```python
 numbers = [1, 2, 3]
@@ -390,7 +341,7 @@ IndexError
 ```
 
 
-### 2. Forgetting parentheses
+### 2️⃣ Forgetting parentheses
 
 ```python
 numbers.append
@@ -405,7 +356,7 @@ numbers.append(4)
 ```
 
 
-### 3. Using wrong index
+### 3️⃣ Using wrong index
 
 Remember:
 - first index = `0`

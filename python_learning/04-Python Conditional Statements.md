@@ -153,7 +153,7 @@ else:
 
 ## 11. Common Mistakes
 
-### 1. Using = instead of ==
+### 1️⃣ Using = instead of ==
 
 ```python
 if age = 18:   # ❌ wrong
@@ -166,14 +166,14 @@ if age == 18:
 ```
 
 
-### 2. Forgetting colon :
+### 2️⃣ Forgetting colon :
 
 ```python
 if age > 18   # ❌ missing :
 ```
 
 
-### 3. Wrong indentation
+### 3️⃣ Wrong indentation
 
 Python will throw an error.
 

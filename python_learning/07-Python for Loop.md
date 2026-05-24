@@ -207,7 +207,7 @@ Output:
 
 ## 12. Common Mistakes
 
-### 1. Wrong indentation
+### 1️⃣ Wrong indentation
 
 ```python
 for i in range(5):
@@ -215,7 +215,7 @@ print(i)  # ❌ wrong
 ```
 
 
-### 2. Forgetting range
+### 2️⃣ Forgetting range
 
 ```python
 for i in 5:  # ❌ wrong
@@ -228,7 +228,7 @@ for i in range(5):
 ```
 
 
-### 3. Confusing for and while
+### 3️⃣ Confusing for and while
 
 - for = known number of loops
 - while = condition-based loops

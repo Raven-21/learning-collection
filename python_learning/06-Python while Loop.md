@@ -151,7 +151,7 @@ while True:
 
 ## 12. Common Mistakes
 
-### 1. Forgetting to update variable
+### 1️⃣ Forgetting to update variable
 
 ```python
 i = 1
@@ -162,14 +162,14 @@ while i <= 5:
 ```
 
 
-### 2. Wrong condition logic
+### 2️⃣ Wrong condition logic
 
 ```python
 while i > 5:  # condition never true
 ```
 
 
-### 3. Forgetting break in while True
+### 3️⃣ Forgetting break in while True
 
 ```python
 while True:

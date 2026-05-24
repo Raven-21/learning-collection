@@ -187,7 +187,7 @@ Output:
 
 ## 13. Common Mistakes
 
-### 1. Forgetting return
+### 1️⃣ Forgetting return
 
 ```python
 def add(a, b):
@@ -195,7 +195,7 @@ def add(a, b):
 ```
 
 
-### 2. Using print instead of return
+### 2️⃣ Using print instead of return
 
 ```python
 def add(a, b):
@@ -205,7 +205,7 @@ def add(a, b):
 👉 Not reusable in calculations
 
 
-### 3. Ignoring return value
+### 3️⃣ Ignoring return value
 
 ```python
 def add(a, b):

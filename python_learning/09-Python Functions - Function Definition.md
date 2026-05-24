@@ -150,7 +150,7 @@ show_menu()
 
 ## 11. Common Mistakes
 
-### 1. Forgetting parentheses
+### 1️⃣ Forgetting parentheses
 
 ```python
 greet   # ❌ does nothing
@@ -158,7 +158,7 @@ greet() # ✔ correct
 ```
 
 
-### 2. Forgetting indentation
+### 2️⃣ Forgetting indentation
 
 ```python
 def test():
@@ -173,7 +173,7 @@ def test():
 ```
 
 
-### 3. Defining but not calling
+### 3️⃣ Defining but not calling
 
 ```python
 def greet():

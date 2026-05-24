@@ -145,7 +145,7 @@ for i in range(5):
 
 ## 9. Common mistakes
 
-### 1. Using break incorrectly
+### 1️⃣ Using break incorrectly
 
 ```python
 for i in range(5):
@@ -153,7 +153,7 @@ for i in range(5):
 ```
 
 
-### 2. Forgetting loop logic after continue
+### 2️⃣ Forgetting loop logic after continue
 
 ```python
 i = 0

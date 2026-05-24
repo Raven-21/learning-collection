@@ -171,7 +171,7 @@ Everything else is usually True.
 
 ## 11. Common Mistakes
 
-### 1. Confusing = and ==
+### 1️⃣ Confusing = and ==
 
 ```python
 if is_active = True   # ❌ wrong
@@ -190,7 +190,7 @@ if is_active:
 ```
 
 
-### 2. Overcomplicating conditions
+### 2️⃣ Overcomplicating conditions
 
 ❌ Not recommended:
 

@@ -149,7 +149,7 @@ finally:
 
 ## 12. Common Beginner Mistakes
 
-### 1. Using try everywhere
+### 1️⃣ Using try everywhere
 
 ❌ Bad:
 
@@ -163,7 +163,7 @@ except:
 Use error handling only where needed.
 
 
-### 2. Hiding all errors
+### 2️⃣ Hiding all errors
 
 ```python
 except:
@@ -173,7 +173,7 @@ except:
 This can hide important problems.
 
 
-### 3. Forgetting proper validation
+### 3️⃣ Forgetting proper validation
 
 Error handling is helpful, but programs should still validate input carefully.
 
