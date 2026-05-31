@@ -21,7 +21,7 @@ history = [
 This is the beginning of working with structured data.
 
 
-# 1️⃣ What is Structured Data?
+## 1️⃣ What is Structured Data?
 
 Instead of storing only raw values:
 
@@ -45,7 +45,7 @@ This structure is called a:
 - structured data
 
 
-# 2️⃣ What is a Dictionary (dict)?
+## 2️⃣ What is a Dictionary (dict)?
 
 A dictionary stores data as:
 
@@ -63,7 +63,7 @@ record = {
 ```
 
 
-## 🧠 Keys
+### 🧠 Keys
 
 ```python
 "guess"
@@ -71,7 +71,7 @@ record = {
 ```
 
 
-## 🧠 Values
+### 🧠 Values
 
 ```python
 30
@@ -79,7 +79,7 @@ record = {
 ```
 
 
-# 3️⃣ Accessing Dictionary Values
+## 3️⃣ Accessing Dictionary Values
 
 Use square brackets with keys.
 
@@ -109,7 +109,7 @@ Output:
 ```
 
 
-# 4️⃣ List + Dictionary Combination
+## 4️⃣ List + Dictionary Combination
 
 This is one of the most important data structures in Python.
 
@@ -124,9 +124,9 @@ history = [
 ```
 
 
-# 🧠 Conceptual Understanding
+## 🧠 Conceptual Understanding
 
-## List
+### List
 
 Stores:
 
@@ -135,7 +135,7 @@ multiple items
 ```
 
 
-## Dictionary
+### Dictionary
 
 Stores:
 
@@ -144,7 +144,7 @@ information about one item
 ```
 
 
-## List + Dictionary
+### List + Dictionary
 
 Stores:
 
@@ -153,7 +153,7 @@ multiple objects with structured information
 ```
 
 
-# 5️⃣ Recording Structured History
+## 5️⃣ Recording Structured History
 
 Old version:
 
@@ -179,7 +179,7 @@ Now each record contains:
 - the guess result
 
 
-# 6️⃣ Traversing Structured Data
+## 6️⃣ Traversing Structured Data
 
 Use a `for` loop.
 
@@ -193,7 +193,7 @@ for record in history:
 Each loop gets one dictionary.
 
 
-# 🧠 Example
+## 🧠 Example
 
 First iteration:
 
@@ -208,7 +208,7 @@ record = {"guess": 50, "result": "high"}
 ```
 
 
-# 7️⃣ Building a History Viewer
+## 7️⃣ Building a History Viewer
 
 Example:
 
@@ -225,9 +225,9 @@ def show_history(history):
 ```
 
 
-# 🧠 How It Works
+## 🧠 How It Works
 
-## Step 1
+### Step 1
 
 Loop through history:
 
@@ -236,7 +236,7 @@ for record in history:
 ```
 
 
-## Step 2
+### Step 2
 
 Extract dictionary values:
 
@@ -246,7 +246,7 @@ record["result"]
 ```
 
 
-## Step 3
+### Step 3
 
 Display formatted output:
 
@@ -255,7 +255,7 @@ f"{record['guess']} → {record['result']}"
 ```
 
 
-# 8️⃣ Why This Is Important
+## 8️⃣ Why This Is Important
 
 This is the foundation of:
 
@@ -268,13 +268,11 @@ This is the foundation of:
 - analytics systems
 
 
-# 9️⃣ Software Design Concepts Learned
+## 9️⃣ Software Design Concepts Learned
 
-## Separation of Concerns
+### Separation of Concerns
 
-### Logic Layer
-
-Responsible for:
+Logic Layer - Responsible for:
 
 ```python
 return "high"
@@ -283,9 +281,7 @@ return "correct"
 ```
 
 
-### Presentation Layer
-
-Responsible for:
+Presentation Layer - Responsible for:
 
 ```python
 print()
@@ -294,7 +290,7 @@ show_result()
 ```
 
 
-## Benefits
+### Benefits
 
 - Cleaner architecture
 - Easier debugging
@@ -303,7 +299,7 @@ show_result()
 - Lower coupling
 
 
-# 🔟 Program State Thinking
+## 🔟 Program State Thinking
 
 The game now works like this:
 
@@ -322,18 +318,18 @@ Presentation Layer Display
 This is a major step toward real software architecture.
 
 
-# 🚀 Key Concepts Learned
+## 🚀 Key Concepts Learned
 
-## Python Data Structures
+### Python Data Structures
 - list
 - dictionary (dict)
 
-## Data Processing
+### Data Processing
 - structured records
 - data traversal
 - state management
 
-## Software Design
+### Software Design
 - layered architecture
 - separation of logic and UI
 - presentation abstraction
