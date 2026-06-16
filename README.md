@@ -11,11 +11,14 @@ This repository is continuously evolving as I progress through different stages 
 ```text
 learning-collection/
 │
-├── git-github-guide/
+├── Git & GitHub Guide/
 │ └── Notes and examples for Git & GitHub usage
 │
-├── python_learning/
+├── Python Learning Log/
 │ └── Python learning notes, exercises, and mini projects
+│
+├── Python Notes/
+│ └── Python knowledge, concepts, and cheat sheet
 │
 └── README.md
 ```
