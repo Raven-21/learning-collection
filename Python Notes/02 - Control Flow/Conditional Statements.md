@@ -1,6 +1,6 @@
 # Python Conditional Statements
 
-## 1. What is Conditional Logic?
+## What is Conditional Logic?
 
 Conditional statements allow a program to make decisions.
 
@@ -9,7 +9,7 @@ In simple words:
 > “If something is true, do this. Otherwise, do something else.”
 
 
-## 2. Basic Structure
+## Basic Structure
 
 ```python
 if condition:
@@ -17,7 +17,7 @@ if condition:
 ```
 
 
-## 3. if Statement
+## if Statement
 
 ```python
 age = 18
@@ -32,7 +32,7 @@ You are an adult
 ```
 
 
-## 4. if + else
+## if + else
 
 ```python
 age = 16
@@ -49,7 +49,7 @@ Minor
 ```
 
 
-## 5. if + elif + else
+## if + elif + else
 
 Used when there are multiple conditions.
 
@@ -67,7 +67,7 @@ else:
 ```
 
 
-## 6. Comparison Operators
+## Comparison Operators
 
 | Operator | Meaning | Example |
 |----------|--------|--------|
@@ -79,7 +79,7 @@ else:
 | `<=` | less or equal | a <= b |
 
 
-## 7. Logical Operators
+## Logical Operators
 
 Used to combine conditions.
 
@@ -111,7 +111,7 @@ if not is_student:
 ```
 
 
-## 8. Indentation (Very Important)
+## Indentation (Very Important)
 
 Python uses indentation to define code blocks.
 
@@ -128,7 +128,7 @@ print("Error")  # no indentation
 ```
 
 
-## 9. Nested if
+## Nested if
 
 ```python
 age = 20
@@ -139,7 +139,7 @@ if age >= 18:
 ```
 
 
-## 10. Real Example
+## Real Example
 
 ```python
 age = int(input("Enter age: "))
@@ -151,7 +151,7 @@ else:
 ```
 
 
-## 11. Common Mistakes
+## Common Mistakes
 
 ### 1️⃣ Using = instead of ==
 
@@ -178,7 +178,7 @@ if age > 18   # ❌ missing :
 Python will throw an error.
 
 
-## 12. Key Ideas
+## Key Ideas
 
 - `if` is for decision making
 - `elif` adds multiple conditions
@@ -187,22 +187,10 @@ Python will throw an error.
 - comparison + logic operators are essential
 
 
-## 13. Think Like a Program
+## Think Like a Program
 
 ```text
 Input → Condition → Decision → Output
 ```
 
 Conditional logic is the foundation of all program behavior.
-
-
-## 14. Real Use in Projects
-
-I already use this in:
-
-- Guess number game
-- Input validation
-- Difficulty selection
-- Game over logic
-
-👉 Conditional statements are the brain of your program.

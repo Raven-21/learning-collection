@@ -20,8 +20,8 @@ A Python dictionary is an object stored in memory.
 
 ```python
 person = {
-    "name": "Revan",
-    "age": 23
+    "name": "Tom",
+    "age": 20
 }
 ```
 
@@ -29,8 +29,8 @@ JSON is a text representation of structured data.
 
 ```json
 {
-    "name": "Revan",
-    "age": 23
+    "name": "Tom",
+    "age": 20
 }
 ```
 
@@ -51,8 +51,8 @@ Although they look very similar, they are different.
 import json
 
 person = {
-    "name": "Revan",
-    "age": 23
+    "name": "Tom",
+    "age": 20
 }
 
 text = json.dumps(person)
@@ -79,15 +79,41 @@ import json
 
 data = {
     "number": game.number,
-    "max_chance": game.max_chance,
-    "history": game.history
+    "my_list": game.my_list
 }
 
-with open("game_history.json", "w", encoding="utf-8") as file:
+with open("ObjRecords.json", "w", encoding="utf-8") as file:
     json.dump(data, file, indent=4)
 ```
 
 This creates a JSON file that stores structured data instead of plain text.
+
+## Reading JSON Files
+
+JSON data can also be read directly from a file.
+
+```python
+import json
+
+with open("ObjRecords.json", "r", encoding="utf-8") as file:
+    data = json.load(file)
+
+print(data)
+print(type(data))
+```
+
+`json.load()` reads JSON data from a file and converts it into a Python object.
+
+For example, a JSON object becomes a Python dictionary.
+
+
+## dump() vs load()
+
+| Function      | Purpose                                |
+| ------------- | -------------------------------------- |
+| `json.dump()` | Write a Python object into a JSON file |
+| `json.load()` | Read a JSON file into a Python object  |
+
 
 
 ## JSON and Project Design
@@ -136,4 +162,5 @@ does not need to be stored because it can be calculated from the raw state.
 * `json.dumps()` converts a dictionary into a JSON string.
 * `json.loads()` converts a JSON string back into a dictionary.
 * `json.dump()` writes structured data directly into a JSON file.
+* `json.load()` reads JSON files into structured data directly.
 * JSON is commonly used for data storage, configuration files, and Web APIs.

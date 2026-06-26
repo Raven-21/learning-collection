@@ -1,13 +1,13 @@
 # Python break / continue
 
-## 1. What are break and continue?
+## What are break and continue?
 
 `break` and `continue` are control statements used inside loops.
 
 They help you control the flow of repetition.
 
 
-## 2. break (Stop the loop)
+## break (Stop the loop)
 
 ### Meaning:
 
@@ -39,7 +39,7 @@ Output:
 - When `i == 5`, loop stops completely
 
 
-## 3. continue (Skip current step)
+## continue (Skip current step)
 
 ### Meaning:
 
@@ -70,7 +70,7 @@ Output:
 - Loop continues normally
 
 
-## 4. break vs continue
+## break vs continue
 
 | Keyword   | Effect                  |
 |----------|------------------------|
@@ -78,7 +78,7 @@ Output:
 | continue | skip current iteration  |
 
 
-## 5. while loop with break
+## while loop with break
 
 ```python
 while True:
@@ -92,7 +92,7 @@ while True:
 ```
 
 
-## 6. while loop with continue
+## while loop with continue
 
 ```python
 i = 0
@@ -115,7 +115,7 @@ Output:
 ```
 
 
-## 7. Real-world usage of break
+## Real-world usage of break
 
 ### Stop game loop
 
@@ -130,7 +130,7 @@ while True:
 ```
 
 
-## 8. Real-world usage of continue
+## Real-world usage of continue
 
 ### Skip invalid input
 
@@ -143,7 +143,7 @@ for i in range(5):
 ```
 
 
-## 9. Common mistakes
+## Common mistakes
 
 ### 1️⃣ Using break incorrectly
 
@@ -165,7 +165,7 @@ while i < 5:
 ```
 
 
-## 10. Key Ideas
+## Key Ideas
 
 - `break` → exit loop completely
 - `continue` → skip current step
@@ -173,7 +173,7 @@ while i < 5:
 - essential for controlling program flow
 
 
-## 11. Think Like a Program
+## Think Like a Program
 
 ```text
 Loop → check condition → decide:
@@ -181,15 +181,3 @@ Loop → check condition → decide:
     → skip (continue)
     → or continue normally
 ```
-
-
-## 12. Real Usage in My Projects
-
-I already use these in:
-
-- Guess number game (break when correct)
-- Input validation loops
-- Replay system
-- Menu-based programs
-
-👉 These are core tools for building interactive programs.

@@ -1,6 +1,6 @@
 # Python Data Types
 
-## 1. What are Data Types?
+## What are Data Types?
 
 In Python, every value has a **type**.
 
@@ -9,7 +9,7 @@ A data type tells Python:
 - what operations can be done with it
 
 
-## 2. Main Built-in Data Types
+## Main Built-in Data Types
 
 Python has several basic data types:
 
@@ -19,7 +19,7 @@ Python has several basic data types:
 - `bool` → Boolean
 
 
-## 3. String (str)
+## String (str)
 
 Used for text.
 
@@ -33,7 +33,7 @@ message = "Hello World"
 - Can contain letters, numbers, symbols
 
 
-## 4. Integer (int)
+## Integer (int)
 
 Used for whole numbers.
 
@@ -47,7 +47,7 @@ score = 100
 - Can be positive or negative
 
 
-## 5. Float
+## Float
 
 Used for decimal numbers.
 
@@ -61,7 +61,7 @@ price = 9.99
 - Used for measurements, money, etc.
 
 
-## 6. Boolean (bool)
+## Boolean (bool)
 
 Used for True / False values.
 
@@ -75,7 +75,7 @@ is_passed = False
 - Used in conditions and logic
 
 
-## 7. Checking Data Type
+## Checking Data Type
 
 Use `type()` to check a variable type:
 
@@ -90,7 +90,7 @@ Output:
 ```
 
 
-## 8. Type Conversion
+## Type Conversion
 
 You can convert between types.
 
@@ -118,7 +118,7 @@ x = float(x)
 ```
 
 
-## 9. Common Mistake
+## Common Mistake
 
 ```python
 age = "23"
@@ -129,7 +129,7 @@ print(age + 1)
 - string + int cannot be combined
 
 
-## 10. Correct Version
+## Correct Version
 
 ```python
 age = int("23")
@@ -137,7 +137,7 @@ print(age + 1)
 ```
 
 
-## 11. Dynamic Typing (Very Important)
+## Dynamic Typing (Very Important)
 
 Python is dynamically typed:
 
@@ -149,7 +149,7 @@ x = "hello"
 👉 The type can change anytime.
 
 
-## 12. Type Summary Table
+## Type Summary Table
 
 | Type  | Example       | Description        |
 |------|--------------|--------------------|
@@ -159,7 +159,7 @@ x = "hello"
 | bool | True/False   | Logic value        |
 
 
-## 13. Real Example
+## Real Example
 
 ```python
 name = "Tom"
@@ -171,7 +171,7 @@ print(f"{name} is {age} years old.")
 ```
 
 
-## 14. Key Takeaways
+## Key Takeaways
 
 - Every value in Python has a type
 - Main types: `str`, `int`, `float`, `bool`
@@ -180,7 +180,7 @@ print(f"{name} is {age} years old.")
 - Python is dynamically typed
 
 
-## 15. Think Like a Programmer
+## Think Like a Programmer
 
 ```text
 Data → Type → Operation → Result

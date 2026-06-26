@@ -1,6 +1,6 @@
 # Python while Loop
 
-## 1. What is a Loop?
+## What is a Loop?
 
 A loop allows a program to repeat a block of code multiple times.
 
@@ -9,7 +9,7 @@ In simple words:
 > “Do something again and again until a condition is false.”
 
 
-## 2. Basic Structure
+## Basic Structure
 
 ```python
 while condition:
@@ -17,7 +17,7 @@ while condition:
 ```
 
 
-## 3. Simple while Loop
+## Simple while Loop
 
 ```python
 i = 1
@@ -37,7 +37,7 @@ Output:
 ```
 
 
-## 4. Infinite Loop
+## Infinite Loop
 
 If the condition never becomes False:
 
@@ -49,7 +49,7 @@ while True:
 ⚠️ This runs forever unless stopped manually.
 
 
-## 5. break Statement
+## break Statement
 
 Used to exit a loop early.
 
@@ -64,7 +64,7 @@ while True:
 ```
 
 
-## 6. continue Statement
+## continue Statement
 
 Skips the current iteration.
 
@@ -87,7 +87,7 @@ Output:
 ```
 
 
-## 7. while vs if
+## while vs if
 
 | if | while |
 |----|------|
@@ -95,7 +95,7 @@ Output:
 | decision | repetition |
 
 
-## 8. Common Pattern: Counter Loop
+## Common Pattern: Counter Loop
 
 ```python
 count = 0
@@ -106,7 +106,7 @@ while count < 3:
 ```
 
 
-## 9. User Input Loop
+## User Input Loop
 
 ```python
 password = ""
@@ -118,7 +118,7 @@ print("Access granted")
 ```
 
 
-## 10. Real Example: Guessing Game Style
+## Real Example: Guessing Game Style
 
 ```python
 number = 7
@@ -136,7 +136,7 @@ print("Correct!")
 ```
 
 
-## 11. Infinite Loop + break Pattern (Very Common)
+## Infinite Loop + break Pattern (Very Common)
 
 ```python
 while True:
@@ -149,7 +149,7 @@ while True:
 ```
 
 
-## 12. Common Mistakes
+## Common Mistakes
 
 ### 1️⃣ Forgetting to update variable
 
@@ -177,7 +177,7 @@ while True:
 ```
 
 
-## 13. Key Ideas
+## Key Ideas
 
 - while repeats code based on condition
 - must update variables inside loop
@@ -186,22 +186,10 @@ while True:
 - `while True` is used for game loops and programs
 
 
-## 14. Think Like a Program
+## Think Like a Program
 
 ```text
 Check condition → Run code → Update state → Repeat
 ```
 
 Loop = the “heartbeat” of many programs.
-
-
-## 15. Real Usage in My Projects
-
-I already use while loops in:
-
-- Guess number game main loop
-- Replay system
-- Input validation
-- Game restart logic
-
-👉 Without loops, programs cannot “run continuously”.

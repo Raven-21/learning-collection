@@ -1,6 +1,6 @@
 # Python for Loop
 
-## 1. What is a for Loop?
+## What is a for Loop?
 
 A `for` loop is used to iterate over a sequence.
 
@@ -9,7 +9,7 @@ In simple words:
 > “Go through each item one by one.”
 
 
-## 2. Basic Structure
+## Basic Structure
 
 ```python
 for item in sequence:
@@ -17,7 +17,7 @@ for item in sequence:
 ```
 
 
-## 3. Looping through a List
+## Looping through a List
 
 ```python
 fruits = ["apple", "banana", "cherry"]
@@ -34,7 +34,7 @@ cherry
 ```
 
 
-## 4. Looping through a String
+## Looping through a String
 
 ```python
 for char in "hello":
@@ -51,7 +51,7 @@ o
 ```
 
 
-## 5. range() Function
+## range() Function
 
 Used to generate a sequence of numbers.
 
@@ -106,7 +106,7 @@ Output:
 ```
 
 
-## 6. for vs while
+## for vs while
 
 | for loop | while loop |
 |----------|------------|
@@ -115,7 +115,7 @@ Output:
 | best for lists/ranges | best for unknown repetition |
 
 
-## 7. Using break in for loop
+## Using break in for loop
 
 ```python
 for i in range(10):
@@ -134,7 +134,7 @@ Output:
 ```
 
 
-## 8. Using continue
+## Using continue
 
 ```python
 for i in range(5):
@@ -152,7 +152,7 @@ Output:
 ```
 
 
-## 9. Nested for Loops
+## Nested for Loops
 
 ```python
 for i in range(3):
@@ -171,7 +171,7 @@ Output:
 ```
 
 
-## 10. Real Example: Simple Table
+## Real Example: Simple Table
 
 ```python
 for i in range(1, 6):
@@ -188,7 +188,7 @@ Output:
 ```
 
 
-## 11. Looping with index (enumerate)
+## Looping with index (enumerate)
 
 ```python
 fruits = ["apple", "banana", "cherry"]
@@ -205,7 +205,7 @@ Output:
 ```
 
 
-## 12. Common Mistakes
+## Common Mistakes
 
 ### 1️⃣ Wrong indentation
 
@@ -234,7 +234,7 @@ for i in range(5):
 - while = condition-based loops
 
 
-## 13. Key Ideas
+## Key Ideas
 
 - for loops iterate over sequences
 - range() generates numbers
@@ -243,22 +243,10 @@ for i in range(5):
 - very common in real programming
 
 
-## 14. Think Like a Program
+## Think Like a Program
 
 ```text
 Take sequence → one item at a time → process → next
 ```
 
 for loop = structured repetition
-
-
-## 15. Real Usage in My Projects
-
-I already use for loops in:
-
-- List traversal (guess history)
-- Displaying results
-- Processing stored data
-- Future statistics system
-
-👉 for loop is essential for working with data collections.

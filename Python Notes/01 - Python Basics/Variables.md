@@ -1,13 +1,13 @@
 # Python Variables
 
-## 1. What is a Variable?
+## What is a Variable?
 
 A variable is a container used to store data in Python.
 
 You can think of it as a **label pointing to a value in memory**.
 
 
-## 2. Basic Syntax
+## Basic Syntax
 
 ```python
 name = "Tom"
@@ -21,7 +21,7 @@ age = 23
 - `23` → number value
 
 
-## 3. Variable Naming Rules
+## Variable Naming Rules
 
 ### ✅ Valid names:
 ```python
@@ -37,7 +37,7 @@ user-name = "Tom" # cannot use hyphen
 ```
 
 
-## 4. Common Data Types
+## Common Data Types
 
 Variables can store different types of data:
 
@@ -62,7 +62,7 @@ is_student = True
 ```
 
 
-## 5. Dynamic Typing
+## Dynamic Typing
 
 Python does NOT require you to declare variable types.
 
@@ -74,7 +74,7 @@ x = "hello"
 👉 The type can change during runtime.
 
 
-## 6. Multiple Assignment
+## Multiple Assignment
 
 You can assign multiple variables at once:
 
@@ -83,7 +83,7 @@ a, b, c = 1, 2, 3
 ```
 
 
-## 7. Reassigning Variables
+## Reassigning Variables
 
 Variables can be updated:
 
@@ -93,7 +93,7 @@ score = 20
 ```
 
 
-## 8. Printing Variables
+## Printing Variables
 
 ```python
 name = "Tom"
@@ -106,7 +106,7 @@ Tom
 ```
 
 
-## 9. String + Variable Output
+## String + Variable Output
 
 ### Method 1: Comma in print
 ```python
@@ -121,7 +121,7 @@ print(f"Hello {name}")
 ```
 
 
-## 10. Type Checking
+## Type Checking
 
 ```python
 x = 10
@@ -134,7 +134,7 @@ Output:
 ```
 
 
-## 11. Type Conversion
+## Type Conversion
 
 ```python
 age = 23
@@ -147,7 +147,7 @@ Common conversions:
 - `float()`
 
 
-## 12. Key Ideas to Remember
+## Key Ideas to Remember
 
 - Variables store data
 - Python is dynamically typed
@@ -156,7 +156,7 @@ Common conversions:
 - Types can be converted when needed
 
 
-## 13. Real Usage Example
+## Real Usage Example
 
 ```python
 name = "Tom"

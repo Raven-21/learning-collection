@@ -1,6 +1,6 @@
 # Python random Module
 
-## 1. What is the random Module?
+## What is the random Module?
 
 The `random` module allows Python programs to generate random values.
 
@@ -16,7 +16,7 @@ This is commonly used in:
 - password generators
 
 
-## 2. Importing the Module
+## Importing the Module
 
 Before using it, you must import it:
 
@@ -25,7 +25,7 @@ import random
 ```
 
 
-## 3. Random Integer
+## Random Integer
 
 ### `random.randint()`
 
@@ -45,7 +45,7 @@ Possible output:
 ```
 
 
-## 4. How randint Works
+## How randint Works
 
 ```python
 random.randint(start, end)
@@ -62,7 +62,7 @@ Means:
 > Generate a random integer from 1 to 100 (inclusive)
 
 
-## 5. Random Choice from List
+## Random Choice from List
 
 ### `random.choice()`
 
@@ -82,7 +82,7 @@ banana
 ```
 
 
-## 6. Random Float
+## Random Float
 
 ### `random.random()`
 
@@ -100,7 +100,7 @@ Possible output:
 ```
 
 
-## 7. Random Decimal in Range
+## Random Decimal in Range
 
 ### `random.uniform()`
 
@@ -118,7 +118,7 @@ Possible output:
 ```
 
 
-## 8. Shuffling a List
+## Shuffling a List
 
 ### `random.shuffle()`
 
@@ -138,7 +138,7 @@ Possible output:
 ```
 
 
-## 9. Real Example: Guess Number Game
+## Real Example: Guess Number Game
 
 ```python
 import random
@@ -151,7 +151,7 @@ print(secret_number)
 This is one of the most common beginner uses of `random`.
 
 
-## 10. Common Beginner Mistakes
+## Common Beginner Mistakes
 
 ### 1. Forgetting import
 
@@ -195,7 +195,7 @@ random.choice(["apple", "banana"])
 ```
 
 
-## 11. Common random Functions
+## Common random Functions
 
 | Function | Purpose |
 |---|---|
@@ -206,7 +206,7 @@ random.choice(["apple", "banana"])
 | `shuffle(list)` | shuffle list |
 
 
-## 12. Why Randomness Matters
+## Why Randomness Matters
 
 Randomness is important in many fields:
 
@@ -217,7 +217,7 @@ Randomness is important in many fields:
 - testing systems
 
 
-## 13. Think Like a Programmer
+## Think Like a Programmer
 
 ```text
 Program
@@ -230,22 +230,7 @@ Different results each run
 Randomness helps programs behave dynamically.
 
 
-## 14. Real Usage in Projects
-
-I already use `random` in:
-
-- Guess number game
-- Secret number generation
-- Replay variability
-
-Future uses may include:
-- random events
-- card games
-- AI simulations
-- procedural generation
-
-
-## 15. Key Ideas
+## Key Ideas
 
 - `random` is a built-in Python module
 - must import before use
@@ -254,7 +239,7 @@ Future uses may include:
 - makes programs more dynamic
 
 
-## 16. Final Summary
+## Final Summary
 
 ```text
 The random module allows programs to create unpredictable behavior,

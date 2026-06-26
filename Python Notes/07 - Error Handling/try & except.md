@@ -1,6 +1,6 @@
 # Python Error Handling - try / except
 
-## 1. What is Error Handling?
+## What is Error Handling?
 
 Error handling is a way to prevent programs from crashing when unexpected problems happen.
 
@@ -9,7 +9,7 @@ In simple words:
 > “Try to run code, and handle errors safely if something goes wrong.”
 
 
-## 2. Why is Error Handling Important?
+## Why is Error Handling Important?
 
 Programs often receive unexpected input.
 
@@ -32,7 +32,7 @@ Without error handling:
 - user experience becomes poor
 
 
-## 3. Basic try / except Structure
+## Basic try / except Structure
 
 ```python
 try:
@@ -42,7 +42,7 @@ except:
 ```
 
 
-## 4. Simple Example
+## Simple Example
 
 ```python
 try:
@@ -53,7 +53,7 @@ except:
 ```
 
 
-## 5. How It Works
+## How It Works
 
 ### Step 1
 
@@ -73,7 +73,7 @@ If an error happens:
 - Python jumps to `except`
 
 
-## 6. Real Example
+## Real Example
 
 ```python
 try:
@@ -84,7 +84,7 @@ except:
 ```
 
 
-## 7. Handling Specific Errors
+## Handling Specific Errors
 
 You can catch specific error types.
 
@@ -98,7 +98,7 @@ except ValueError:
 ```
 
 
-## 8. Common Error Types
+## Common Error Types
 
 | Error Type | Meaning |
 |---|---|
@@ -109,7 +109,7 @@ except ValueError:
 | `IndexError` | invalid list index |
 
 
-## 9. Example: Division Error
+## Example: Division Error
 
 ```python
 try:
@@ -119,7 +119,7 @@ except ZeroDivisionError:
 ```
 
 
-## 10. Using else
+## Using else
 
 `else` runs if no error occurs.
 
@@ -133,7 +133,7 @@ else:
 ```
 
 
-## 11. Using finally
+## Using finally
 
 `finally` always runs.
 
@@ -147,7 +147,7 @@ finally:
 ```
 
 
-## 12. Common Beginner Mistakes
+## Common Beginner Mistakes
 
 ### 1️⃣ Using try everywhere
 
@@ -178,7 +178,7 @@ This can hide important problems.
 Error handling is helpful, but programs should still validate input carefully.
 
 
-## 13. Error Handling Flow
+## Error Handling Flow
 
 ```text
 Run code
@@ -189,7 +189,7 @@ Error?
 ```
 
 
-## 14. Real Example: Input Validation Loop
+## Real Example: Input Validation Loop
 
 ```python
 while True:
@@ -203,7 +203,7 @@ while True:
 This is a very common real-world pattern.
 
 
-## 15. Why try / except Matters
+## Why try / except Matters
 
 Error handling improves:
 
@@ -215,7 +215,7 @@ Error handling improves:
 Without it, programs crash easily.
 
 
-## 16. Think Like a Software Engineer
+## Think Like a Software Engineer
 
 ```text
 Users do unexpected things.
@@ -225,7 +225,7 @@ Programs should handle them safely.
 Good software expects mistakes and handles them gracefully.
 
 
-## 17. Real Usage in Projects
+## Real Usage in Projects
 
 Error handling is used everywhere:
 
@@ -237,7 +237,7 @@ Error handling is used everywhere:
 - automation scripts
 
 
-## 18. Key Ideas
+## Key Ideas
 
 - `try` → attempt risky code
 - `except` → handle errors safely
@@ -246,7 +246,7 @@ Error handling is used everywhere:
 - essential for real software
 
 
-## 19. Final Summary
+## Final Summary
 
 ```text
 Good programs do not assume everything will work perfectly.

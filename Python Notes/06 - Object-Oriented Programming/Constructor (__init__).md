@@ -33,7 +33,7 @@ class TestObj:
 
     def __init__(self, number):
         self.number = number
-        self.list = []
+        self.my_list = []
 ```
 
 After creation:
@@ -46,7 +46,7 @@ The object contains:
 
 ```python
 obj_1.number
-obj_1.list
+obj_1.my_list
 ```
 
 

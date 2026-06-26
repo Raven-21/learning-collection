@@ -1,6 +1,6 @@
 # Python Functions - Parameters & Return Values
 
-## 1. What are Parameters and Return Values?
+## What are Parameters and Return Values?
 
 Functions can:
 
@@ -13,7 +13,7 @@ In simple words:
 > Return = output from the function
 
 
-## 2. Function without parameters
+## Function without parameters
 
 ```python
 def greet():
@@ -29,7 +29,7 @@ greet()
 👉 No input needed
 
 
-## 3. Function with parameters
+## Function with parameters
 
 Parameters allow you to pass data into a function.
 
@@ -52,7 +52,7 @@ Hello Alice
 ```
 
 
-## 4. Multiple parameters
+## Multiple parameters
 
 ```python
 def add(a, b):
@@ -71,7 +71,7 @@ Output:
 ```
 
 
-## 5. Parameters vs Arguments
+## Parameters vs Arguments
 
 | Term | Meaning |
 |------|--------|
@@ -88,12 +88,12 @@ greet("Tom")       # argument
 ```
 
 
-## 6. What is return?
+## What is return?
 
 `return` sends a result back from a function.
 
 
-## 7. Function with return value
+## Function with return value
 
 ```python
 def add(a, b):
@@ -113,7 +113,7 @@ Output:
 ```
 
 
-## 8. Why return is important
+## Why return is important
 
 Without return:
 
@@ -133,7 +133,7 @@ result = add(3, 5)
 👉 You can store and reuse the value.
 
 
-## 9. return stops the function
+## return stops the function
 
 ```python
 def test():
@@ -144,7 +144,7 @@ def test():
 👉 Code after return is ignored.
 
 
-## 10. Multiple return paths
+## Multiple return paths
 
 ```python
 def check_age(age):
@@ -155,7 +155,7 @@ def check_age(age):
 ```
 
 
-## 11. Function flow with return
+## Function flow with return
 
 ```text
 Input → Process → Return Output
@@ -169,7 +169,7 @@ def square(x):
 ```
 
 
-## 12. Real Example
+## Real Example
 
 ```python
 def calculate_total(price, tax):
@@ -185,7 +185,7 @@ Output:
 ```
 
 
-## 13. Common Mistakes
+## Common Mistakes
 
 ### 1️⃣ Forgetting return
 
@@ -215,7 +215,7 @@ add(3, 5)  # ❌ result lost
 ```
 
 
-## 14. Default Parameters (Extra)
+## Default Parameters (Extra)
 
 ```python
 def greet(name="Guest"):
@@ -230,7 +230,7 @@ greet("Tom")
 ```
 
 
-## 15. Key Ideas
+## Key Ideas
 
 - Parameters = input to function
 - Return = output from function
@@ -239,22 +239,10 @@ greet("Tom")
 - Functions become powerful when using both
 
 
-## 16. Think Like a Program
+## Think Like a Program
 
 ```text
 Input → Function → Output → Reuse
 ```
 
 This is the core model of all real software systems.
-
-
-## 17. Real Usage in My Projects
-
-I already use this in:
-
-- `check_guess()` → returns result
-- `get_guess()` → returns user input
-- `choose_difficulty()` → returns attempt count
-- game logic functions → return game state
-
-👉 This is a major step toward real software architecture.

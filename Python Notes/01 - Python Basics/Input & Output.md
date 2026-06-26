@@ -1,6 +1,6 @@
 # Python Input / Output
 
-## 1. What is Input and Output?
+## What is Input and Output?
 
 In Python:
 
@@ -8,7 +8,7 @@ In Python:
 - **Output** = data displayed by the program
 
 
-## 2. Output (print)
+## Output (print)
 
 ### Basic usage
 
@@ -35,7 +35,7 @@ Tom
 ```
 
 
-## 3. Multiple Outputs
+## Multiple Outputs
 
 ### Using comma (automatic space)
 
@@ -52,7 +52,7 @@ Hello Tom
 👉 Python automatically adds a space between values.
 
 
-## 4. String Concatenation Output
+## String Concatenation Output
 
 ```python
 name = "Tom"
@@ -69,7 +69,7 @@ Hello Tom
 - Cannot mix string and number directly
 
 
-## 5. f-strings (Recommended)
+## f-strings (Recommended)
 
 ```python
 name = "Tom"
@@ -86,7 +86,7 @@ My name is Tom, I am 23 years old.
 👉 This is the modern and most commonly used method.
 
 
-## 6. Input (user input)
+## Input (user input)
 
 ### Basic usage
 
@@ -102,7 +102,7 @@ Tom
 ```
 
 
-## 7. Important: input() returns STRING
+## Important: input() returns STRING
 
 ```python
 age = input("Enter age: ")
@@ -117,7 +117,7 @@ Output:
 👉 Even if you type a number, it is still a string.
 
 
-## 8. Type Conversion with Input
+## Type Conversion with Input
 
 ### Convert to integer
 
@@ -135,7 +135,7 @@ print(height)
 ```
 
 
-## 9. Common Mistake
+## Common Mistake
 
 ```python
 age = input("Age: ")
@@ -146,7 +146,7 @@ print(age + 1)
 - You cannot add string + integer
 
 
-## 10. Correct Version
+## Correct Version
 
 ```python
 age = int(input("Age: "))
@@ -154,7 +154,7 @@ print(age + 1)
 ```
 
 
-## 11. Real Example (Mini Program)
+## Real Example (Mini Program)
 
 ```python
 name = input("Enter your name: ")
@@ -165,7 +165,7 @@ print(f"You will be {age + 1} next year")
 ```
 
 
-## 12. Key Points Summary
+## Key Points Summary
 
 - `print()` → output data
 - `input()` → get user input
@@ -174,7 +174,7 @@ print(f"You will be {age + 1} next year")
 - f-strings are the best way to format output
 
 
-## 13. Think Like a Program
+## Think Like a Program
 
 ```text
 User → input() → process → print()

@@ -1,6 +1,6 @@
 # Python Dictionary (dict)
 
-## 1. What is a Dictionary?
+## What is a Dictionary?
 
 A dictionary is a data structure that stores data in **key-value pairs**.
 
@@ -9,7 +9,7 @@ In simple words:
 > “A dictionary is like a real-world dictionary: you look up a word (key) to get its meaning (value).”
 
 
-## 2. Creating a Dictionary
+## Creating a Dictionary
 
 Dictionaries use curly braces `{}`.
 
@@ -22,7 +22,7 @@ student = {
 ```
 
 
-## 3. Key-Value Concept
+## Key-Value Concept
 
 Each item has:
 
@@ -37,7 +37,7 @@ Example:
 ```
 
 
-## 4. Accessing Values
+## Accessing Values
 
 ```python
 student = {
@@ -54,7 +54,7 @@ Tom
 ```
 
 
-## 5. Adding / Updating Values
+## Adding / Updating Values
 
 ### Add new key
 
@@ -69,7 +69,7 @@ student["age"] = 19
 ```
 
 
-## 6. Removing Items
+## Removing Items
 
 ### pop()
 
@@ -83,7 +83,7 @@ student.pop("age")
 ```
 
 
-## 7. Checking Keys
+## Checking Keys
 
 ### in
 
@@ -101,7 +101,7 @@ True
 ```
 
 
-## 8. Getting Keys Safely
+## Getting Keys Safely
 
 ### get()
 
@@ -121,7 +121,7 @@ None
 ```
 
 
-## 9. Looping Through Dictionary
+## Looping Through Dictionary
 
 ### Keys
 
@@ -152,7 +152,7 @@ for key, value in student.items():
 ```
 
 
-## 10. Dictionary Length
+## Dictionary Length
 
 ```python
 student = {
@@ -169,7 +169,7 @@ Output:
 ```
 
 
-## 11. Empty Dictionary
+## Empty Dictionary
 
 ```python
 data = {}
@@ -178,7 +178,7 @@ data = {}
 Used when data will be added later dynamically.
 
 
-## 12. Nested Dictionary
+## Nested Dictionary
 
 ```python
 student = {
@@ -197,7 +197,7 @@ print(student["grades"]["math"])
 ```
 
 
-## 13. Real Example: Game History
+## Real Example: Game History
 
 You already used this idea in your project:
 
@@ -213,7 +213,7 @@ history.append({
 Each record is a dictionary.
 
 
-## 14. Dictionary vs List
+## Dictionary vs List
 
 | Feature | List | Dictionary |
 |---|---|---|
@@ -222,7 +222,7 @@ Each record is a dictionary.
 | Meaning | sequence | labeled data |
 
 
-## 15. When to Use Dictionary
+## When to Use Dictionary
 
 Use dict when:
 
@@ -232,7 +232,7 @@ Use dict when:
 - representing objects or records
 
 
-## 16. Common Beginner Mistakes
+## Common Beginner Mistakes
 
 ### 1️⃣ Key error
 
@@ -271,7 +271,7 @@ student = {
 ```
 
 
-## 17. Common Dictionary Methods
+## Common Dictionary Methods
 
 | Method | Purpose |
 |---|---|
@@ -282,7 +282,7 @@ student = {
 | `pop()` | remove item |
 
 
-## 18. Why Dictionary Is Important
+## Why Dictionary Is Important
 
 Dictionaries are used everywhere in programming:
 
@@ -293,7 +293,7 @@ Dictionaries are used everywhere in programming:
 - configuration files
 
 
-## 19. Think Like a Programmer
+## Think Like a Programmer
 
 ```text
 List → index-based storage
@@ -303,20 +303,7 @@ Dictionary → meaning-based storage
 Dictionary helps organize structured data clearly.
 
 
-## 20. Real Usage in Your Projects
-
-You already use dictionaries in:
-
-- guess history system:
-  ```python
-  {"guess": guess, "result": result}
-  ```
-
-- structured game records
-- future statistics system
-
-
-## 21. Key Ideas
+## Key Ideas
 
 - dictionary = key-value storage
 - keys are unique
@@ -325,7 +312,7 @@ You already use dictionaries in:
 - essential for real-world programming
 
 
-## 22. Final Summary
+## Final Summary
 
 ```text
 Dictionaries allow programs to store data in a structured,

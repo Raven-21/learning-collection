@@ -1,6 +1,6 @@
 # Python Functions - Function Definition
 
-## 1. What is a Function?
+## What is a Function?
 
 A function is a reusable block of code that performs a specific task.
 
@@ -9,7 +9,7 @@ In simple words:
 > “A function is a mini-program inside your program.”
 
 
-## 2. Why do we use functions?
+## Why do we use functions?
 
 Without functions:
 
@@ -29,7 +29,7 @@ def say_hello():
 👉 You can reuse the same logic many times.
 
 
-## 3. Function Definition Syntax
+## Function Definition Syntax
 
 ```python
 def function_name():
@@ -37,7 +37,7 @@ def function_name():
 ```
 
 
-## 4. Simple Function Example
+## Simple Function Example
 
 ```python
 def greet():
@@ -56,7 +56,7 @@ Hello World
 ```
 
 
-## 5. Function Workflow
+## Function Workflow
 
 ```text
 Define → Call → Execute
@@ -72,7 +72,7 @@ greet()
 ```
 
 
-## 6. Function Naming Rules
+## Function Naming Rules
 
 ### ✅ Good names:
 
@@ -90,7 +90,7 @@ def my-function():  # cannot use -
 ```
 
 
-## 7. Function Does NOT run automatically
+## Function Does NOT run automatically
 
 ```python
 def test():
@@ -104,7 +104,7 @@ test()
 ```
 
 
-## 8. Function Reusability
+## Function Reusability
 
 ```python
 def greet():
@@ -123,7 +123,7 @@ Hello!
 ```
 
 
-## 9. Function as a Program Block
+## Function as a Program Block
 
 You can think of a function as:
 
@@ -136,7 +136,7 @@ Output (optional)
 ```
 
 
-## 10. Real Example
+## Real Example
 
 ```python
 def show_menu():
@@ -148,7 +148,7 @@ show_menu()
 ```
 
 
-## 11. Common Mistakes
+## Common Mistakes
 
 ### 1️⃣ Forgetting parentheses
 
@@ -183,7 +183,7 @@ def greet():
 ```
 
 
-## 12. Key Ideas
+## Key Ideas
 
 - Functions are reusable blocks of code
 - Defined using `def`
@@ -192,22 +192,10 @@ def greet():
 - Improve readability and structure
 
 
-## 13. Think Like a Programmer
+## Think Like a Programmer
 
 ```text
 Problem → Break into functions → Reuse blocks → Build program
 ```
 
 Functions are the foundation of structured programming.
-
-
-## 14. Real Usage in My Projects
-
-I already use functions in:
-
-- Guess number game structure
-- Input handling (`get_guess`)
-- Game loop (`play_game`)
-- UI display (`show_count`, `show_game_over`)
-
-👉 I are already writing modular programs like a real developer.

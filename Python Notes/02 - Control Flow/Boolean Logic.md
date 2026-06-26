@@ -1,6 +1,6 @@
 # Python Boolean Logic
 
-## 1. What is Boolean Logic?
+## What is Boolean Logic?
 
 Boolean logic is the system of working with only two values:
 
@@ -10,7 +10,7 @@ Boolean logic is the system of working with only two values:
 In programming, Boolean logic is used to make decisions.
 
 
-## 2. Basic Boolean Values
+## Basic Boolean Values
 
 ```python
 is_active = True
@@ -18,7 +18,7 @@ is_logged_in = False
 ```
 
 
-## 3. Boolean in Conditions
+## Boolean in Conditions
 
 Boolean values are often the result of comparisons:
 
@@ -34,7 +34,7 @@ True
 ```
 
 
-## 4. Comparison Produces Boolean
+## Comparison Produces Boolean
 
 | Expression | Result |
 |------------|--------|
@@ -44,7 +44,7 @@ True
 | 5 != 5     | False  |
 
 
-## 5. Logical Operators
+## Logical Operators
 
 Boolean logic becomes powerful when combined with logical operators.
 
@@ -87,7 +87,7 @@ Meaning:
 > Reverse the value
 
 
-## 6. Truth Table
+## Truth Table
 
 ### AND
 
@@ -117,7 +117,7 @@ Meaning:
 | False | True |
 
 
-## 7. Boolean in if Statements
+## Boolean in if Statements
 
 Boolean logic is the core of `if` statements.
 
@@ -131,7 +131,7 @@ if age > 18:
 👉 `age > 18` returns a Boolean value.
 
 
-## 8. Real Example
+## Real Example
 
 ```python
 age = 20
@@ -144,7 +144,7 @@ else:
 ```
 
 
-## 9. Boolean Conversion
+## Boolean Conversion
 
 Any value can be converted to Boolean using `bool()`:
 
@@ -156,7 +156,7 @@ print(bool(""))     # False
 ```
 
 
-## 10. Falsy Values in Python
+## Falsy Values in Python
 
 These values are considered False:
 
@@ -169,7 +169,7 @@ These values are considered False:
 Everything else is usually True.
 
 
-## 11. Common Mistakes
+## Common Mistakes
 
 ### 1️⃣ Confusing = and ==
 
@@ -205,7 +205,7 @@ if is_active:
 ```
 
 
-## 12. Key Ideas
+## Key Ideas
 
 - Boolean has only two values: True / False
 - Comparisons return Boolean results
@@ -214,23 +214,10 @@ if is_active:
 - Forms the foundation of decision-making
 
 
-## 13. Think Like a Program
+## Think Like a Program
 
 ```text
 Condition → True / False → Decision → Action
 ```
 
 Boolean logic is the “thinking system” of programming.
-
-
-## 14. Real Usage in My Projects
-
-I am already using Boolean logic in:
-
-- Guess number game (correct / wrong)
-- Game loop control
-- Input validation
-- Difficulty selection
-- Game over conditions
-
-👉 Without Boolean logic, programs cannot make decisions.

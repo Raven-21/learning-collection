@@ -1,6 +1,6 @@
 # Python List
 
-## 1. What is a List?
+## What is a List?
 
 A list is a data structure used to store multiple values in one variable.
 
@@ -33,7 +33,7 @@ ages = [18, 20, 25]
 ```
 
 
-## 2. Creating a List
+## Creating a List
 
 Lists are created using square brackets `[]`.
 
@@ -43,7 +43,7 @@ Example:
 fruits = ["apple", "banana", "orange"]
 ```
 
-## 3. List Can Store Different Types
+## List Can Store Different Types
 
 Example:
 
@@ -59,7 +59,7 @@ A list can contain:
 - even other lists
 
 
-## 4. Accessing List Items
+## Accessing List Items
 
 Lists use indexes.
 
@@ -78,7 +78,7 @@ Output:
 apple
 ```
 
-## 5. Index Starts from 0
+## Index Starts from 0
 
 ⚠️ Index positions begin at 0, not 1.
 
@@ -89,7 +89,7 @@ apple
 | 2 | orange |
 
 
-## 6. Negative Index
+## Negative Index
 
 Negative indexes access from the end.
 
@@ -113,7 +113,7 @@ The latest data is often stored at the end of a list.
 Very common in real software development.
 
 
-## 7. Modifying List Items
+## Modifying List Items
 
 Example:
 
@@ -131,7 +131,7 @@ Output:
 ```
 
 
-## 8. Adding Items
+## Adding Items
 
 ### `append()` - Adds a new element to the end of a list.
 
@@ -161,7 +161,7 @@ Append into list
 ```
 
 
-## 9. Removing Items
+## Removing Items
 
 ### `remove()` - Remove by Value
 
@@ -208,7 +208,7 @@ Commonly used for:
 - Stack structures
 
 
-## 10. List Length
+## List Length
 
 ### `len()` - Returns the number of elements in the list
 
@@ -227,7 +227,7 @@ Output:
 ```
 
 
-## 11. Looping Through a List
+## Looping Through a List
 
 ### for loop
 
@@ -248,7 +248,7 @@ orange
 ```
 
 
-## 12. Checking Membership
+## Checking Membership
 
 ### `in` - Checks whether a value exists in the list
 
@@ -273,7 +273,7 @@ if 50 in history:
 ```
 
 
-## 13. Empty List
+## Empty List
 
 ```python
 history = []
@@ -282,7 +282,7 @@ history = []
 Often used for collecting data dynamically.
 
 
-## 14. Dynamic Data Collection
+## Dynamic Data Collection
 
 ```python
 numbers = []
@@ -299,7 +299,7 @@ Output:
 ```
 
 
-## 15. Real Example
+## Real Example
 
 ```python
 guess_history = []
@@ -313,7 +313,7 @@ print(guess_history)
 This is similar to your guessing game history system.
 
 
-## 16. Nested Lists
+## Nested Lists
 
 Lists can contain other lists.
 
@@ -325,7 +325,7 @@ matrix = [
 ```
 
 
-## 17. Common Beginner Mistakes
+## Common Beginner Mistakes
 
 ### 1️⃣ Index out of range
 
@@ -363,7 +363,7 @@ Remember:
 - last index = `-1`
 
 
-## 18. Common List Methods
+## Common List Methods
 
 | Method | Purpose |
 |---|---|
@@ -373,7 +373,7 @@ Remember:
 | `len()` | get length |
 
 
-## 19. Why Lists Are Important
+## Why Lists Are Important
 
 Lists are one of the most important data structures in programming.
 
@@ -400,7 +400,7 @@ Display
 Learning lists is the beginning of understanding real program data management.
 
 
-## 20. Think Like a Programmer
+## Think Like a Programmer
 
 ```text
 Single variable → stores one value
@@ -410,17 +410,7 @@ List → stores many values
 Lists help programs manage collections of data efficiently.
 
 
-## 21. Real Usage in Projects
-
-I already use lists in:
-
-- guess history tracking
-- storing user input
-- future statistics systems
-- structured game data
-
-
-## 22. Key Ideas
+## Key Ideas
 
 - lists store multiple items
 - indexes access data
@@ -429,7 +419,7 @@ I already use lists in:
 - essential for real programming
 
 
-## 23. Final Summary
+## Final Summary
 
 ```text
 Lists are flexible containers that allow programs

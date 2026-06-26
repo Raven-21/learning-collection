@@ -1,6 +1,6 @@
 # Python Function Design - Separation of Responsibilities
 
-## 1. What is Separation of Responsibilities?
+## What is Separation of Responsibilities?
 
 Separation of responsibilities means:
 
@@ -11,7 +11,7 @@ Instead of making one large function do everything, we divide the program into s
 This is one of the most important ideas in programming and software engineering.
 
 
-## 2. Why is it Important?
+## Why is it Important?
 
 When programs grow larger, mixed responsibilities create problems:
 
@@ -25,7 +25,7 @@ Good structure makes programs:
 - easier to maintain
 - easier to expand
 
-## 3. Bad Example (Mixed Responsibilities)
+## Bad Example (Mixed Responsibilities)
 
 ```python
 def process_data():
@@ -48,7 +48,7 @@ This function handles:
 Everything is mixed together.
 
 
-## 4. Better Example (Separated Responsibilities)
+## Better Example (Separated Responsibilities)
 
 ### Input Function
 
@@ -90,7 +90,7 @@ def main():
 ```
 
 
-## 5. Core Idea
+## Core Idea
 
 Instead of:
 
@@ -105,7 +105,7 @@ Many small focused functions
 ```
 
 
-## 6. Benefits of Responsibility Separation
+## Benefits of Responsibility Separation
 
 ### Readability
 
@@ -132,7 +132,7 @@ Programs become easier to expand as they grow.
 Problems are easier to locate and fix.
 
 
-## 7. Common Functional Roles
+## Common Functional Roles
 
 In many programs, functions are separated into roles such as:
 
@@ -144,7 +144,7 @@ In many programs, functions are separated into roles such as:
 | Control | manage overall flow |
 
 
-## 8. Real-World Analogy
+## Real-World Analogy
 
 Think of a restaurant:
 
@@ -159,7 +159,7 @@ Each role focuses on one task.
 Programs work better the same way.
 
 
-## 9. Common Beginner Mistake
+## Common Beginner Mistake
 
 Many beginners write:
 
@@ -171,7 +171,7 @@ def main():
 This works at first, but becomes difficult to manage as programs grow.
 
 
-## 10. Good Function Design Principles
+## Good Function Design Principles
 
 A good function should:
 
@@ -182,7 +182,7 @@ A good function should:
 - avoid unrelated tasks
 
 
-## 11. Think Like a Software Engineer
+## Think Like a Software Engineer
 
 ```text
 Big problem
@@ -197,7 +197,7 @@ Combine them into a system
 This is one of the foundations of software design.
 
 
-## 12. Key Ideas
+## Key Ideas
 
 - One function = one responsibility
 - Separate different types of work
@@ -206,7 +206,7 @@ This is one of the foundations of software design.
 - Good design improves long-term development
 
 
-## 13. Why This Matters
+## Why This Matters
 
 This concept is used in:
 
@@ -220,7 +220,7 @@ This concept is used in:
 As projects grow, structure becomes more important than syntax.
 
 
-## 14. Final Summary
+## Final Summary
 
 ```text
 Good programs are not built from one giant block of code.
