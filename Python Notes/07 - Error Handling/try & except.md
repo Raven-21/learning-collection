@@ -97,6 +97,28 @@ except ValueError:
     print("Invalid number")
 ```
 
+## Handling Multiple Exceptions
+
+Different operations may produce different exceptions.
+
+Example:
+
+```python
+import json
+
+try:
+    with open("data.json", "r", encoding="utf-8") as file:
+        data = json.load(file)
+
+except FileNotFoundError:
+    print("File does not exist.")
+
+except json.JSONDecodeError:
+    print("Invalid JSON file.")
+```
+
+Handling specific exceptions separately makes programs easier to understand and maintain.
+
 
 ## Common Error Types
 
@@ -145,6 +167,31 @@ except:
 finally:
     print("Finished")
 ```
+
+## Why Catch Specific Exceptions?
+
+Avoid writing:
+
+```python
+except:
+    print("Error")
+```
+
+Instead, catch the specific exception that you expect.
+
+Example:
+
+```python
+except ValueError:
+```
+
+or
+
+```python
+except FileNotFoundError:
+```
+
+Specific exception handling makes debugging easier and avoids hiding unexpected problems.
 
 
 ## Common Beginner Mistakes
@@ -246,10 +293,24 @@ Error handling is used everywhere:
 - essential for real software
 
 
-## Final Summary
+## Exception Handling Philosophy
 
-```text
-Good programs do not assume everything will work perfectly.
+Error handling is not about hiding errors.
 
-They prepare for errors and handle them properly.
-```
+Its purpose is to help software recover gracefully from expected problems.
+
+Good software should:
+
+- prevent unnecessary crashes
+- provide meaningful feedback
+- continue running whenever possible
+
+Exception handling improves software robustness rather than simply preventing error messages.
+
+
+## Best Practices
+
+- Catch specific exceptions whenever possible.
+- Do not overuse `try...except`.
+- Keep `try` blocks as small as practical.
+- Use exception handling to improve robustness rather than hide bugs.

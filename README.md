@@ -20,6 +20,9 @@ learning-collection/
 ├── Python Notes/
 │ └── Python knowledge, concepts, and cheat sheet
 │
+├── Project Retrospectives/
+│ └── Project Timeline, Biggest Lessons, Design Decisions, Problems Discovered, and What I Would Do Differently
+│ 
 └── README.md
 ```
 

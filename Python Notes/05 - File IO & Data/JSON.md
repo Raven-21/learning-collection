@@ -115,6 +115,68 @@ For example, a JSON object becomes a Python dictionary.
 | `json.load()` | Read a JSON file into a Python object  |
 
 
+## Serialization & Deserialization
+
+Two important concepts when working with JSON are:
+
+### Serialization
+
+Convert a Python object into JSON.
+
+Examples:
+
+```python
+json.dump(data, file)
+```
+
+or
+
+```python
+json.dumps(data)
+```
+
+### Deserialization
+
+Convert JSON back into a Python object.
+
+Examples:
+
+```python
+json.load(file)
+```
+
+or
+
+```python
+json.loads(text)
+```
+
+Serialization allows programs to save structured data.
+
+Deserialization allows programs to restore that data later.
+
+
+## Common JSON Exceptions
+
+Reading JSON files may raise exceptions.
+
+Example:
+
+```python
+import json
+
+try:
+    with open("data.json", "r", encoding="utf-8") as file:
+        data = json.load(file)
+
+except json.JSONDecodeError:
+    print("Invalid JSON format.")
+```
+
+`JSONDecodeError` occurs when the file exists but its contents are not valid JSON.
+
+Programs should handle this exception to improve reliability.
+
 
 ## JSON and Project Design
 
@@ -155,12 +217,9 @@ Derived state such as:
 does not need to be stored because it can be calculated from the raw state.
 
 
-## Summary
+## Best Practices
 
-* JSON is a lightweight text format for structured data.
-* A Python dictionary and JSON look similar but are different.
-* `json.dumps()` converts a dictionary into a JSON string.
-* `json.loads()` converts a JSON string back into a dictionary.
-* `json.dump()` writes structured data directly into a JSON file.
-* `json.load()` reads JSON files into structured data directly.
-* JSON is commonly used for data storage, configuration files, and Web APIs.
+- Use JSON to store structured data instead of plain text.
+- Store raw state instead of derived state whenever possible.
+- Use `json.dump()` and `json.load()` when working with files.
+- Handle `JSONDecodeError` when reading JSON files.

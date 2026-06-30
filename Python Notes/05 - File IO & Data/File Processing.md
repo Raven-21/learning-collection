@@ -198,6 +198,61 @@ file.write()
 file.close()
 ```
 
+## Why Use `with`?
+
+Python provides two common ways to work with files.
+
+### Manual Management
+
+```python
+file = open("data.txt", "r", encoding="utf-8")
+
+content = file.read()
+
+file.close()
+```
+
+### Context Manager (Recommended)
+
+```python
+with open("data.txt", "r", encoding="utf-8") as file:
+    content = file.read()
+```
+
+The `with` statement automatically closes the file after the block finishes.
+
+Even if an exception occurs while reading or writing, Python still closes the file correctly.
+
+Using `with` makes file operations safer, cleaner, and is considered the standard practice in modern Python.
+
+
+## Common File Exceptions
+
+File operations may fail for many reasons.
+
+Some common exceptions include:
+
+| Exception | Description |
+|-----------|-------------|
+| `FileNotFoundError` | The file does not exist. |
+| `PermissionError` | The program does not have permission to access the file. |
+| `IsADirectoryError` | A directory was opened as if it were a file. |
+
+Example:
+
+```python
+try:
+    with open("data.txt", "r", encoding="utf-8") as file:
+        content = file.read()
+
+except FileNotFoundError:
+    print("File not found.")
+```
+
+Programs should not assume every file operation will succeed.
+
+Instead, they should be prepared to handle possible errors.
+
 
 ## Persistence
 
@@ -236,14 +291,9 @@ Answer: 42
 Attempts: 5
 ```
 
+## Best Practices
 
-## Key Concepts
-
-* File I/O
-* File Object
-* Read
-* Write
-* Append
-* Encoding
-* Persistence
-* Context Manager (`with`)
+- Always use `with open()` instead of manually calling `close()`.
+- Always specify `encoding="utf-8"` when working with text files.
+- Handle possible file-related exceptions when necessary.
+- Store only the data that truly needs persistence.

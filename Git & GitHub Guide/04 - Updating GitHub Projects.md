@@ -57,6 +57,7 @@ For example:
 
 >add input practice, finish day 1 exercises, practice while loop
 
+
 ## Step 5: Push to GitHub
 
 Type:
@@ -72,23 +73,15 @@ You will see:
 - New code
 - New commit
 
+
 ## Good Commit Habits
 
-Do not wait too long before committing.
-
-Recommended:
-
-- Commit after completing small features
-- Commit regularly
-
-Examples:
-
-```text
-add input practice
-finish guessing game logic
-practice loops
-```
+- Commit after completing a meaningful feature.
+- Keep each commit focused on one topic.
+- Write clear commit titles.
+- Add a detailed commit message for important changes.
+- Push regularly after committing.
 
 Git is not only for saving code.
 
-It also records your learning and development process.
+It records the entire evolution of a software project.
