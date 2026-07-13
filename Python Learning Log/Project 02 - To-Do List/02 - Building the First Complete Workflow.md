@@ -1,4 +1,4 @@
-# Building the First Complete Workflow
+# 02 - Building the First Complete Workflow
 
 Today's development focused on connecting the individual components of the project into a complete workflow. Instead of creating isolated classes, I began thinking about how different objects should cooperate to accomplish a user task.
 
