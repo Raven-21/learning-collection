@@ -7,16 +7,15 @@ Type hints describe the expected types of function parameters and return values.
 Example:
 
 ```python
-def update_task(index: int, title: str, description: str) -> None:
-    ...
+def add(a: int, b: int) -> int:
+    return a + b
 ```
 
 Here:
 
-- `index` is expected to be an integer.
-- `title` is expected to be a string.
-- `description` is expected to be a string.
-- `None` means the function does not return a value.
+- `a` is expected to be an integer.
+- `b` is expected to be an integer.
+- The function returns an integer.
 
 
 ## Parameter Type Annotations
@@ -25,15 +24,15 @@ Function parameters can specify their expected types.
 
 ```python
 def greet(name: str):
-    ...
+    print(f"Hello, {name}")
 ```
 
 ```python
-def add(a: int, b: int):
+def repeat(text: str, times: int):
     ...
 ```
 
-This makes function signatures easier to understand.
+Type annotations make function signatures easier to understand.
 
 
 ## Return Type Annotations
@@ -43,22 +42,22 @@ The symbol `->` specifies the return type.
 Examples:
 
 ```python
-def add(a: int, b: int) -> int:
-    return a + b
+def is_even(number: int) -> bool:
+    return number % 2 == 0
 ```
 
 ```python
-def is_valid() -> bool:
-    return True
+def read_lines() -> list[str]:
+    ...
 ```
 
 ```python
-def get_tasks() -> list[Task]:
-    return self.tasks.copy()
+def calculate_total() -> float:
+    ...
 ```
 
 ```python
-def update() -> None:
+def save_data() -> None:
     ...
 ```
 
@@ -67,7 +66,7 @@ def update() -> None:
 
 Type hints are optional.
 
-They do **not** change how Python executes code.
+They do **not** affect how Python executes code.
 
 Their main benefits are:
 
@@ -78,8 +77,15 @@ Their main benefits are:
 - Better static analysis
 
 
+## Type Hints Improve Communication
+
+Type hints make code easier to understand for both humans and development tools.
+
+They describe how a function is intended to be used without changing its behavior.
+
+
 ## Summary
 
-Type hints help describe the intended use of code.
+Type hints document the expected types of code.
 
-They improve code quality without affecting program behavior.
+They improve readability and maintainability while remaining completely optional.

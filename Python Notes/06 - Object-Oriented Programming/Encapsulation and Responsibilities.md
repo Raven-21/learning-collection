@@ -2,113 +2,121 @@
 
 ## What is Encapsulation?
 
-Encapsulation is one of the fundamental ideas of Object-Oriented Programming (OOP).
+Encapsulation is one of the fundamental principles of Object-Oriented Programming (OOP).
 
-A class should manage its own data and behavior instead of allowing external code to modify its internal state directly.
+It means that an object should manage its own data and behavior instead of exposing its internal implementation.
 
-Instead of doing this:
-
-```python
-task.title = title
-task.description = description
-```
-
-Expose a public method:
+For example, instead of modifying an object's attributes directly:
 
 ```python
-task.update(title, description)
+account.balance = -100
 ```
 
-The object becomes responsible for updating itself.
+provide a public method:
+
+```python
+account.withdraw(100)
+```
+
+The object becomes responsible for validating and updating its own state.
 
 
-## Internal Helper Methods
+## Public Methods and Internal Methods
 
-Sometimes multiple methods need the same logic.
+A class usually provides **public methods** for other code to use.
 
-Instead of duplicating code, extract it into an internal helper method.
+Sometimes, a public method needs help from another method that is only part of the class implementation.
 
 Example:
 
 ```python
-def _validate_title(self, title: str) -> str:
-    title = title.strip()
+class User:
 
-    if title == "":
-        raise ValueError("Title cannot be empty.")
+    def change_email(self, email: str):
+        self.email = self._validate_email(email)
 
-    return title
+    def _validate_email(self, email: str) -> str:
+        email = email.strip()
+
+        if "@" not in email:
+            raise ValueError("Invalid email address.")
+
+        return email
 ```
+
+Here:
+
+- `change_email()` is a public method.
+- `_validate_email()` is an internal helper method.
+
+
+## Internal Helper Methods
 
 Methods beginning with a single underscore (`_`) are intended for internal use.
 
 Python does **not** prevent external code from calling them.
 
-The underscore simply tells other developers:
+The underscore is simply a convention that tells other developers:
 
-> This method is part of the class implementation and should normally not be called directly.
+> This method is part of the internal implementation.
+
+Internal helper methods should normally only be used inside the class.
 
 
 ## Avoid Code Duplication
 
-Without a helper method:
+Suppose both object creation and object updates need to validate an email address.
 
-```python
+Instead of writing the same validation code twice:
+
+```text
 __init__()
+    ↓
+validate email
+
+change_email()
+    ↓
+validate email
 ```
 
-and
-
-```python
-update()
-```
-
-would both contain the same validation code.
-
-Instead:
+Extract the shared logic into a helper method:
 
 ```text
 __init__()
         │
         ▼
-_validate_title()
+_validate_email()
 
-update()
+change_email()
         │
         ▼
-_validate_title()
+_validate_email()
 ```
 
-Both methods reuse the same validation logic.
-
-This follows the **DRY (Don't Repeat Yourself)** principle.
+This makes the program easier to maintain.
 
 
 ## Responsibility of Each Class
 
-Each class should only manage its own responsibilities.
+A class should manage its own data and behavior.
 
-### TaskManager
+Another class should communicate through public methods instead of modifying internal data directly.
 
-- Store tasks
-- Find tasks
-- Validate task indexes
-- Delegate work to Task objects
+This keeps responsibilities clear and reduces coupling between classes.
 
-### Task
 
-- Store task data
-- Validate titles
-- Update its own state
+## Related Design Principle
 
-Keeping responsibilities separate makes the program easier to maintain and extend.
+Extracting shared logic into helper methods follows the **DRY (Don't Repeat Yourself)** principle.
+
+Reducing duplicated code improves consistency and maintainability.
 
 
 ## Summary
 
-Good OOP design means:
+Good encapsulation means:
 
 - Objects manage themselves.
+- Internal implementation is hidden behind public methods.
 - Helper methods reduce duplicated code.
-- Validation belongs to the class that owns the data.
 - Each class has clear responsibilities.
